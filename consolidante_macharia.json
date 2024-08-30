@@ -1,0 +1,64 @@
+{
+    "_id": {
+        "$oid": "6682fe717e581ca326d61f22"
+    },
+    "id": "consolidate_macharia",
+    "title": "Consolida Macharia",
+    "description": "Consolida Macharia",
+    "author": "Fernando Pessoa",
+    "version": "1.0",
+    "group": "Output",
+    "color": "#656D78",
+    "icon": "save",
+    "input": true,
+    "output": false,
+    "options": {
+        "label": "consolidate macharia",
+        "color": "#0693e3",
+        "component": "consolidate_macharia",
+        "phase": "output",
+        "component_id": "6682fe717e581ca326d61f22",
+        "process_type": "consumer",
+        "station_id": "641b3a9af742dd9ea6d0416c",
+        "plc": "http://localhost:8080"
+        
+    },
+    "formSchema": {
+        "title": "Settings",
+        "type": "object",
+        "properties": {
+            "label": {
+                "label": "flow_component.consolidate_macharia.label.label",
+                "label_default": "Label",
+                "helperText": "flow_component.consolidate_macharia.label.helper_text",
+                "helperText_default": "",
+                "help_text": "",
+                "level": 0,
+                "input_type": "string",
+                "ui_component": "TextInput",
+                "required": true
+            },
+            "color": {
+                "label": "flow_component.consolidate_macharia.color.label",
+                "label_default": "Color",
+                "helperText": "flow_component.consolidate_macharia.color.helper_text",
+                "helperText_default": "",
+                "help_text": "",
+                "level": 1,
+                "input_type": "string",
+                "ui_component": "ColorPicker"
+            },
+            "plc": {
+                "label": "flow_component.consolidate_macharia.plc.label",
+                "label_default": "Plc",
+                "helperText": "flow_component.consolidate_macharia.plc.helper_text",
+                "helperText_default": "Url do PLc",
+                "help_text": "",
+                "level": 2,
+                "input_type": "string",
+                "ui_component": "TextInput"
+            }
+           
+        }
+    }
+}
